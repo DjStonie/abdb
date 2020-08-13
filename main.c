@@ -22,10 +22,11 @@
 
 #include <windows.h>
 #include <stdio.h>
+#include <stdbool.h>
 #include <io.h>
 #include "aodb.h"
 
-#define ADBD_VERSION   "0.3.0"
+#define ADBD_VERSION   "0.3.1"
 
 #define ADBD_DECODE    0x0001
 #define ADBD_DUMPITEM  0x1000
